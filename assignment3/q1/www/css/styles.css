@@ -1,0 +1,93 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Freeserif, serif;
+}
+
+
+header {
+  background-color: #C031D3;
+  padding: 30px;
+  text-align: center;
+}
+.title {
+  font-size: 35px;
+  color: white;
+}
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 0.89; 
+  background: #dfe3ee;
+  padding: 20px;
+  margin-right: 30px;
+
+}
+
+nav ul {
+  list-style-type:circle ;
+  padding: 20px;
+}
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f7f7f7;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #8b9dc3;
+  padding: 15px;
+  text-align: center;
+}
+
+img.resize {
+  height:120px;
+}
+
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.cart-button:link {
+  color: red !important;
+}
+
+.cart-button:visited {
+  color: white;
+}
+
+.cart-button:hover {
+  color: white !important;
+}
+
+.cart-button:active {
+  color: white;
+}
+
+.delete-icon {
+  color: red !important;
+}
+
+.delete-icon:hover {
+  color: red !important;
+}
+
+.card-body{
+  color: #C031D3;
+}
+
